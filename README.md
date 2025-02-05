@@ -26,3 +26,27 @@ cd lms-frontend-hn
 ```
  npm run dev
  ```
+
+ ### setup instruction for tailwind
+
+ [tailwind official instruction doc  https://tailwindcss.com/docs/installation/using-vite]
+
+ 1. install tailwindcss 
+ ```
+ npm install -D tailwindcss
+
+ ```
+
+ 2. create tailwind config file
+ ```
+ npx tailwindcss init
+ ```
+
+ 3. Add file extension to tailwind config in the content property 
+
+ 4. Add  the tailwind directives at the top of the index.css file.
+
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
